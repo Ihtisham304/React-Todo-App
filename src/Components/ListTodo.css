@@ -1,0 +1,41 @@
+ol{
+    margin: 0 auto;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0px 0px 10px;
+}
+ol li{
+    position: relative;
+}
+ol li span{
+    position: absolute;
+    right: 15px;
+}
+ol li span button{
+    margin: 0px 0px 0px 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition:  1s ease;
+}
+ol li span button:hover{
+
+    transform: scale(1.02);
+}
+.dark{
+    background-color: #333;
+    color: #fff;
+}
+.light{
+    background-color: #fff;
+    color: grey;
+}
+button.dark, .dark button{
+    background-color: #333;
+    color: #dddddd;
+}
+button.light, .light button{
+    background-color: #fff;
+    color: grey;
+}
